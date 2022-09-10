@@ -138,7 +138,7 @@ button:hover{
 .start-screen{
     display: flex;
     height: 810px;
-    background-image: url("/assets/image/Bg.png");
+    background-image: url("../assets/image/Bg.png");
     background-position: 0 0;
     background-repeat: no-repeat;
     position: relative;
