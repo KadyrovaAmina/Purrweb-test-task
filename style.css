@@ -6,7 +6,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url("/assets/fonts/ProximaNova-Bold.woff2") format("woff2"), url("/assets/fonts/ProximaNova-Bold.woff") format("woff");
+    src: url("./assets/fonts/ProximaNova-Bold.woff2") format("woff2"), url("/assets/fonts/ProximaNova-Bold.woff") format("woff");
 }
 /*Proxima Nova Semibold*/
 @font-face {
@@ -14,7 +14,7 @@
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url("/assets/fonts/ProximaNova-Semibold.woff2") format("woff2"), url("/assets/fonts/ProximaNova-Semibold.woff") format("woff");
+    src: url("./assets/fonts/ProximaNova-Semibold.woff2") format("woff2"), url("/assets/fonts/ProximaNova-Semibold.woff") format("woff");
 }
 /*Proxima Nova Regular*/
 @font-face {
@@ -22,7 +22,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("/assets/fonts/ProximaNova-Regular.woff2") format("woff2"), url("/assets/fonts/ProximaNova-Regular.woff") format("woff");
+    src: url("./assets/fonts/ProximaNova-Regular.woff2") format("woff2"), url("/assets/fonts/ProximaNova-Regular.woff") format("woff");
 }
 /*Raleway Medium*/
 @font-face {
@@ -30,7 +30,7 @@
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url("/assets/fonts/Raleway-Medium.woff2") format("woff2"), url("/assets/fonts/Raleway-Medium.woff") format("woff");
+    src: url("./assets/fonts/Raleway-Medium.woff2") format("woff2"), url("/assets/fonts/Raleway-Medium.woff") format("woff");
 }
 /*Raleway SemiBold*/
 @font-face {
@@ -38,7 +38,7 @@
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url("/assets/fonts/Raleway-SemiBold.woff2") format("woff2"), url("/assets/fonts/Raleway-SemiBold.woff") format("woff");
+    src: url("./assets/fonts/Raleway-SemiBold.woff2") format("woff2"), url("/assets/fonts/Raleway-SemiBold.woff") format("woff");
 }
 /*Raleway ExtraBold*/
 @font-face {
@@ -46,7 +46,7 @@
     font-style: normal;
     font-weight: 800;
     font-display: swap;
-    src: url("/assets/fonts/Raleway-ExtraBold.woff2") format("woff2"), url("/assets/fonts/Raleway-ExtraBold.woff") format("woff");
+    src: url("./assets/fonts/Raleway-ExtraBold.woff2") format("woff2"), url("/assets/fonts/Raleway-ExtraBold.woff") format("woff");
 }
 /*--fonts*/
 *, *::before, *::after{
@@ -256,7 +256,7 @@ main{
     }
     .start-screen{
         height: 789px;
-        background-image: url("/assets/image/mob.png");
+        background-image: url("./assets/image/mob.png");
         margin-bottom: 80px;
     }
     .start-screen__content{
